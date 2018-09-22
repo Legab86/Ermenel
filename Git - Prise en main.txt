@@ -1,4 +1,4 @@
-
+﻿
 Git : Prise en main
 -------------------
 
@@ -98,3 +98,4 @@ Etape 4 : Travailler avec des branches Git
 
 	Prochaine session.
 
+Ermenel 22/O9/2018 à 12h36
