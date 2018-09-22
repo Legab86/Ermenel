@@ -1,0 +1,100 @@
+
+Git : Prise en main
+-------------------
+
+Etape 1 : Débuter avec Git
+--------------------------
+
+A- Installer Git en local
+	: https://git-scm.com/downloads
+
+
+B- Créer un repository local
+	: Créer un répertoire "DepotGit" à la racine du disque;
+	: Accéder à ce répertoire en ligne de commande;
+	: Exécuter la commande "git init" 
+		> un dossier ".git" est créé;
+		> vous êtes désormais sur la branche "master" du projet;
+
+		
+C- Ajouter/Modifier un élément du projet à l'INDEX Git du projet
+	: Créer un fichier "toto.txt" dans lequel vous aurez inséré le texte "Git Hello World !" 
+	: Afficher le statut du projet avec la commande "git status"
+		> les fichiers modifiés/ajoutés sont affichés en rouge
+	: Ajouter les fichier à l'INDEX Git du projet en faisant :
+		: ou la commande "git add . "
+			> tous les fichiers ajoutés/modifiés au projet sont ajoutés à l'INDEX Git du projet;
+		: ou la commande "git add chemin/nomFichier"
+			> seul le fichier est ajouté à l'INDEX Git du projet
+		
+		> en affichant à nouveau le statut du projet, les fichiers ajoutés à l'INDEX sont désormais en vert;
+
+
+D- Ajouter/Modifier un élément du projet à la HEAD Git du projet
+	: Ajouter les fichiers présents dans l'INDE Git à la HEAD du projet en tapant la commande
+		" git commit -m "mon premier commit avec git" "
+
+
+E- Mettre à jour son projet en local
+	: Avant de committer, il faut s'assurer que le projet local est à jour en exécutant la commande
+		: "git pull"	> Pour récupération des mises à jour avec mise à jour de la branche courante
+		: "git fetch" > Pour récupération des mises à jour sans mise à jour de la branche courante
+
+
+F- Sauvegarder le projet local sur le repository
+	: Sauvegarder les modifications locales sur le dépôt Git en exécutant la commande "git push"
+
+
+
+Etape 2 : Travailler avec GitHub
+--------------------------------
+A- Créer un compte sous GitHub.com
+	+ Créer un repository distant
+
+B- Importer le repository distant en local
+	: Créer un répertoire DepotGitDistant
+	: Exécuter la commande "git clone url_du_depot_distant"
+		> un répertoire ".git" est désormais présent dans le répertoire
+
+C- Ajouter/Modifier un élément du projet
+	: Répéter les actions effectuées en "Etape 1 : C- "
+	: Répéter les actions effectuées en "Etape 1 : D- "
+
+D- Mettre à jour son projet en local
+	: Répéter les actions effectuées en "Etape 1 : E- "
+
+E- Sauvegarder le projet local sur le repository
+	: Répéter les actions effectuées en "Etape 1 : F- "
+
+F- Vérifier l'historique de ses actions sur la HEAD Git du projet :
+	: Exécuter la commande "git log"
+
+
+
+
+Etape 3 : Création de vos répertoires dans le repository RizenSchool
+--------------------------------------------------------------------
+
+A- Importer le repository rizenschool ( https://github.com/mihinot/rizenschool.git );
+	: Demander à être rajouté en tant que Collaborateur au repository rizenschool;
+
+B- Créer un répertoire à votre prenom_nom;
+
+C- Copier vos TPs dans votre répertoire;
+
+D- Ajouter vos TPs à l'INDEX puis à la HEAD du projet;
+
+E- Mettre à jour votre repository local;
+
+E- Committer vos modifications sur le repository rizenschool;
+
+	/!\ Pas besoin d'envoyer un email pour prévenir que votre travail est fait.
+	/!\ Vos répertoires à jour permettront de directement constater de l'avancer de vos travaux.
+
+
+	
+Etape 4 : Travailler avec des branches Git
+------------------------------------------
+
+	Prochaine session.
+
